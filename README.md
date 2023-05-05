@@ -17,11 +17,8 @@
 事前決済・評価もできる予約サービスです。  
 
 ## アプリケーションURL
-http://ec2-43-207-42-6.ap-northeast-1.compute.amazonaws.com/  
+http://ec2-43-207-231-207.ap-northeast-1.compute.amazonaws.com/  
 
-
-## 他のリポジトリ
-開発環境用  
 
 ## 機能一覧
 ユーザー認証機能  
@@ -44,9 +41,9 @@ http://ec2-43-207-42-6.ap-northeast-1.compute.amazonaws.com/
 
 ## 使用技術（実行環境）
 AWS EC2: Amazon Linux2
-Apache: 2.4.56
 Docker: 20.10.23
-Docker Compose: 2.17.3
+Docker Compose: 2.17.3  
+git : 2.39.2  
 フロントエンド: Nuxt.js 2.15.8  
 バックエンド: Laravel 8.x  
 firebase: 9.19.1  
@@ -71,7 +68,9 @@ firebase: 9.19.1
 
 
 ## 環境構築
-・.env.exampleを.envにコピーし、環境設定を行ってください。
+・サーバーにDocker,Docker Compose,gitをインストールしてください。   
+・.env.exampleを.envにコピーし、環境設定を行ってください。　　
+・リマインダーメール設定はbackend/mycronで変更可能です。　　
 
 *テストデータ準備*
 UsersTableSeeder , AreasTableSeeder , GenresTableSeeder　, ShopsTableSeeder , CoursesTableSeeder  php artisan db:seed  

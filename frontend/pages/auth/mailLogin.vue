@@ -31,7 +31,7 @@ export default {
       }
       const auth = getAuth();
       const actionCodeSettings = {
-        url: 'http://localhost:3000/',
+        url: this.$config.appUrl,
         handleCodeInApp: true
       }
       await sendSignInLinkToEmail(auth, this.email, actionCodeSettings)
