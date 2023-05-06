@@ -60,11 +60,10 @@ firebase: 9.19.1
 
 
 ## テーブル設計
-![tables](https://user-images.githubusercontent.com/119908511/233911233-42fbbd3e-9f8d-4776-ad77-9c7d6a7b7b27.png)
-
+![tables](https://user-images.githubusercontent.com/119908511/236633456-b75b2864-80fa-4bdd-9ac5-0e63d1fcaedc.png)
 
 ## ER図
-![ER](https://user-images.githubusercontent.com/119908511/233911244-2001d6ac-b3aa-4f40-8ab0-15ad10ca4704.png)
+![ER](https://user-images.githubusercontent.com/119908511/236633448-2e587678-848e-49be-b9c6-4b9d4a04db36.png)
 
 
 ## 環境構築
