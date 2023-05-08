@@ -69,7 +69,7 @@ firebase: 9.19.1
 ## 環境構築
 ・サーバーにDocker,Docker Compose,gitをインストールしてください。   
 ・.env.exampleを.envにコピーし、環境設定を行ってください。　　
-・リマインダーメール設定はbackend/mycronで変更可能です。　　
+・リマインダーメール設定はbackend/app/consoleで変更可能です。　　
 
 *テストデータ準備*
 UsersTableSeeder , AreasTableSeeder , GenresTableSeeder　, ShopsTableSeeder , CoursesTableSeeder  php artisan db:seed  
