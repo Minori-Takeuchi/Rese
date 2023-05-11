@@ -18,6 +18,7 @@
 
 ## アプリケーションURL
 http://ec2-43-207-231-207.ap-northeast-1.compute.amazonaws.com/  
+※現在は休止中です　　
 
 
 ## 機能一覧
